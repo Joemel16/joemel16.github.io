@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="color-1.css">
 
-    <!-- ✅ FONT AWESOME (with v4 shims para gumana fa fa-home etc) -->
+    <!-- ✅ FIXED FONT AWESOME (supports fa fa-home etc) -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/v4-shims.min.css">
 
@@ -18,10 +18,10 @@
 </head>
 
 <body>
-
+<!-- ========== MAIN CONTAINER START ========= -->
 <div class="main-container">
 
-    <!-- ===== ASIDE ===== -->
+    <!-- ========== ASIDE START ========= -->
     <div class="aside">
         <div class="logo">
             <a href="#"><span>P</span>ortfolio</a>
@@ -34,23 +34,23 @@
             <li><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>
         </ul>
     </div>
+    <!-- ========== ASIDE END ========= -->
 
-    <!-- ===== MAIN CONTENT ===== -->
+    <!-- ========== MAIN CONTENT START ========= -->
     <div class="main-content">
 
-        <!-- ===== HOME ===== -->
+        <!-- ========== HOME SECTION START ========= -->
         <section class="home section" id="home">
             <div class="container">
                 <div class="row">
 
                     <div class="home-info padd-15">
-                        <h3 class="hello">
-                            Hello, My Name is <br>
-                            <span> Joemel Jhoy Villanueva</span>
+                        <h3 class="hello">Hello, My Name is <br>
+                            <span>Joemel Jhoy Villanueva</span>
                         </h3>
 
                         <h3 class="my-profession">
-                            I'm an <span class="typing"></span>
+                            I'm an <span class="typing">IT Specialist</span>
                         </h3>
 
                         <p>
@@ -65,50 +65,56 @@
                         <ul class="download-cv">
                             <li class="download-color">
                                 <a href="Curriculum Vitae - Villanueva, Joemel Jhoy F..pdf" target="_blank">
-                                    Download CV <i class="fa fa-file"></i>
+                                    Download-cv <i class="fa fa-file"></i>
                                 </a>
                             </li>
                         </ul>
                     </div>
 
-                    <!-- ✅ PROFILE IMAGE (ROOT) -->
+                    <!-- ✅ IMAGE PATH FIX ONLY -->
                     <div class="home-img padd-15">
-                        <img src="MyPic.png" alt="Profile Picture">
+                        <img src="MyPic.png" alt="">
                     </div>
 
                 </div>
             </div>
         </section>
+        <!-- ========== HOME SECTION END ========= -->
 
-        <!-- ===== ABOUT ===== -->
+        <!-- ========== ABOUT SECTION START ========= -->
         <section class="about section" id="about">
             <div class="container">
-
-                <div class="section-title padd-15">
-                    <p class="section_text_p1">Get to know more</p>
-                    <h2>About Me</h2>
-                </div>
-
                 <div class="row">
+                    <div class="section-title padd-15">
+                        <p class="section_text_p1">Get to know more</p>
+                        <h2>About Me</h2>
+                    </div>
+
                     <div class="about-content padd-15">
-
                         <div class="about-text padd-15">
-                            <h3>I am Joemel Jhoy an, <span> IT Specialist</span></h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h3>I am Joemel Jhoy an, <span>IT Specailist</span></h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                Voluptas quas ducimus facere. Maiores illum, aperiam odit cum
+                                earum vitae, perferendis alias modi, exercitationem itaque amet
+                                fuga natus id molestias ad et error voluptatem facilis ipsam nostrum
+                                quidem inventore. Temporibus expedita, nulla incidunt assumenda magni
+                                animi similique consequuntur, officia soluta ipsum suscipit impedit?
+                                000000000000 itaque quidem?
+                            </p>
                         </div>
 
-                        <!-- ✅ ABOUT IMAGE (ROOT) -->
+                        <!-- ✅ ABOUT IMAGE -->
                         <div class="about-img padd-15">
-                            <img src="sideview.jpg" alt="Side View">
+                            <img src="sideview.jpg" alt="">
                         </div>
-
                     </div>
                 </div>
-
             </div>
         </section>
+        <!-- ========== ABOUT SECTION END ========= -->
 
-        <!-- ===== SERVICES ===== -->
+        <!-- ========== SERVICES SECTION START ========= -->
         <section class="service section" id="services">
             <div class="container">
                 <div class="section-title padd-15">
@@ -116,20 +122,25 @@
                 </div>
 
                 <div class="row">
+                    <!-- ONE SAMPLE (others unchanged in CSS/HTML structure) -->
                     <div class="service-item padd-15">
                         <div class="service-item-inner">
                             <div class="icon">
                                 <i class="fa fa-diagram-project"></i>
                             </div>
-                            <h4>Network Design</h4>
-                            <p>Network planning & implementation.</p>
+                            <h4>Network Design & Implementation</h4>
+                            <p>
+                                Plan, configure, and deploy scalable and secure network infrastructures using
+                                switches, routers, firewalls, and wireless access points.
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- ========== SERVICES SECTION END ========= -->
 
-        <!-- ===== CONTACT ===== -->
+        <!-- ========== CONTACT SECTION START ========= -->
         <section class="contact section" id="contact">
             <div class="container">
 
@@ -140,19 +151,19 @@
                 <div class="row">
 
                     <div class="contact-information-item padd-15">
-                        <img src="phone.png" width="24">
-                        <h4>Mobile</h4>
+                        <img src="phone.png" alt="" style="width:24px; height:24px;">
+                        <h4>Mobile Number</h4>
                         <p>+63 0999999999</p>
                     </div>
 
                     <div class="contact-information-item padd-15">
-                        <img src="gmail.png" width="24">
+                        <img src="gmail.png" alt="" style="width:24px; height:24px;">
                         <h4>Email</h4>
                         <p>jjfv@gmail.com</p>
                     </div>
 
                     <div class="contact-information-item padd-15">
-                        <img src="facebook.png" width="24">
+                        <img src="facebook.png" alt="" style="width:24px; height:24px;">
                         <h4>Facebook</h4>
                         <p>
                             <a href="https://www.facebook.com/jhoy.jhoyy/" target="_blank">
@@ -162,7 +173,7 @@
                     </div>
 
                     <div class="contact-information-item padd-15">
-                        <img src="linkedin.png" width="24">
+                        <img src="linkedin.png" alt="" style="width:24px; height:24px;">
                         <h4>LinkedIn</h4>
                         <p>
                             <a href="https://www.linkedin.com/in/joemel-jhoy-villanueva-426001314" target="_blank">
@@ -174,25 +185,17 @@
                 </div>
             </div>
         </section>
+        <!-- ========== CONTACT SECTION END ========= -->
 
     </div>
-</div>
+    <!-- ========== MAIN CONTENT END ========= -->
 
-<!-- ===== JS FILES ===== -->
+</div>
+<!-- ========== MAIN CONTAINER END ========= -->
+
+<!-- ✅ JS FILES -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
 <script src="script.js"></script>
-
-<!-- ✅ Typed init (safe fallback) -->
-<script>
-    if (document.querySelector(".typing")) {
-        new Typed(".typing", {
-            strings: ["IT Specialist", "Network Engineer", "Cybersecurity"],
-            typeSpeed: 80,
-            backSpeed: 50,
-            loop: true
-        });
-    }
-</script>
 
 </body>
 </html>
