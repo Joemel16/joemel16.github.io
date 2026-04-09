@@ -1,124 +1,197 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>joemeljhoy.ph</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>joemeljhoy.ph</title>
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="color-1.css">
+    <!-- ========== CSS FILES ========= -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="color-1.css">
 
-  <!-- ✅ Font Awesome (WORKING + supports fa fa-home) -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/v4-shims.min.css">
+    <!-- ✅ FONT AWESOME (with v4 shims para gumana fa fa-home etc) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/v4-shims.min.css">
 
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
 <div class="main-container">
 
-  <div class="aside">
-    <div class="logo">
-      <a href="#"><span>P</span>ortfolio</a>
+    <!-- ===== ASIDE ===== -->
+    <div class="aside">
+        <div class="logo">
+            <a href="#"><span>P</span>ortfolio</a>
+        </div>
+
+        <ul class="nav">
+            <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
+            <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
+            <li><a href="#services"><i class="fa fa-list"></i> Service</a></li>
+            <li><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>
+        </ul>
     </div>
 
-    <ul class="nav">
-      <li><a href="#home"><i class="fa fa-home"></i> Home</a></li>
-      <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
-      <li><a href="#services"><i class="fa fa-list"></i> Service</a></li>
-      <li><a href="#contact"><i class="fa fa-comments"></i> Contact</a></li>
-    </ul>
-  </div>
+    <!-- ===== MAIN CONTENT ===== -->
+    <div class="main-content">
 
-  <div class="main-content">
+        <!-- ===== HOME ===== -->
+        <section class="home section" id="home">
+            <div class="container">
+                <div class="row">
 
-    <!-- HOME -->
-    <section class="home section" id="home">
-      <div class="container">
-        <div class="row">
-          <div class="home-info padd-15">
-            <h3 class="hello">Hello, My Name is<br>
-              <span>Joemel Jhoy Villanueva</span>
-            </h3>
+                    <div class="home-info padd-15">
+                        <h3 class="hello">
+                            Hello, My Name is <br>
+                            <span> Joemel Jhoy Villanueva</span>
+                        </h3>
 
-            <h3 class="my-profession">I'm an <span class="typing"></span></h3>
+                        <h3 class="my-profession">
+                            I'm an <span class="typing"></span>
+                        </h3>
 
-            <p>You can call me whatever you like.</p>
+                        <p>
+                            You can call me whatever you like. If you want to
+                            know me and learn more about who I am, you can click
+                            the buttons in the category section—everything about
+                            me is there. &#129322;
+                        </p>
 
-            <a href="#contact" class="hire-me">Hire Me</a>
+                        <a href="#contact" class="hire-me">Hire Me</a>
 
-            <ul class="download-cv">
-              <li class="download-color">
-                <a href="Curriculum Vitae - Villanueva, Joemel Jhoy F..pdf" target="_blank">
-                  Download CV <i class="fa fa-file"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
+                        <ul class="download-cv">
+                            <li class="download-color">
+                                <a href="Curriculum Vitae - Villanueva, Joemel Jhoy F..pdf" target="_blank">
+                                    Download CV <i class="fa fa-file"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
 
-          <div class="home-img padd-15">
-            <img src="MyPic.png" alt="My Picture">
-          </div>
-        </div>
-      </div>
-    </section>
+                    <!-- ✅ PROFILE IMAGE (ROOT) -->
+                    <div class="home-img padd-15">
+                        <img src="MyPic.png" alt="Profile Picture">
+                    </div>
 
-    <!-- ABOUT -->
-    <section class="about section" id="about">
-      <div class="container">
-        <div class="about-img padd-15">
-          <img src="sideview.jpg" alt="Side View">
-        </div>
-      </div>
-    </section>
+                </div>
+            </div>
+        </section>
 
-    <!-- CONTACT -->
-    <section class="contact section" id="contact">
-      <div class="container">
-        <div class="row">
+        <!-- ===== ABOUT ===== -->
+        <section class="about section" id="about">
+            <div class="container">
 
-          <div class="contact-information-item padd-15">
-            <img src="phone.png" width="24">
-            <h4>Mobile</h4>
-          </div>
+                <div class="section-title padd-15">
+                    <p class="section_text_p1">Get to know more</p>
+                    <h2>About Me</h2>
+                </div>
 
-          <div class="contact-information-item padd-15">
-            <img src="gmail.png" width="24">
-            <h4>Email</h4>
-          </div>
+                <div class="row">
+                    <div class="about-content padd-15">
 
-          <div class="contact-information-item padd-15">
-            <img src="facebook.png" width="24">
-            <h4>Facebook</h4>
-          </div>
+                        <div class="about-text padd-15">
+                            <h3>I am Joemel Jhoy an, <span> IT Specialist</span></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
 
-          <div class="contact-information-item padd-15">
-            <img src="linkedin.png" width="24">
-            <h4>LinkedIn</h4>
-          </div>
+                        <!-- ✅ ABOUT IMAGE (ROOT) -->
+                        <div class="about-img padd-15">
+                            <img src="sideview.jpg" alt="Side View">
+                        </div>
 
-        </div>
-      </div>
-    </section>
+                    </div>
+                </div>
 
-  </div>
+            </div>
+        </section>
+
+        <!-- ===== SERVICES ===== -->
+        <section class="service section" id="services">
+            <div class="container">
+                <div class="section-title padd-15">
+                    <h2>Services</h2>
+                </div>
+
+                <div class="row">
+                    <div class="service-item padd-15">
+                        <div class="service-item-inner">
+                            <div class="icon">
+                                <i class="fa fa-diagram-project"></i>
+                            </div>
+                            <h4>Network Design</h4>
+                            <p>Network planning & implementation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== CONTACT ===== -->
+        <section class="contact section" id="contact">
+            <div class="container">
+
+                <div class="section-title padd-15">
+                    <h2>Contact Me</h2>
+                </div>
+
+                <div class="row">
+
+                    <div class="contact-information-item padd-15">
+                        <img src="phone.png" width="24">
+                        <h4>Mobile</h4>
+                        <p>+63 0999999999</p>
+                    </div>
+
+                    <div class="contact-information-item padd-15">
+                        <img src="gmail.png" width="24">
+                        <h4>Email</h4>
+                        <p>jjfv@gmail.com</p>
+                    </div>
+
+                    <div class="contact-information-item padd-15">
+                        <img src="facebook.png" width="24">
+                        <h4>Facebook</h4>
+                        <p>
+                            <a href="https://www.facebook.com/jhoy.jhoyy/" target="_blank">
+                                facebook.com/jhoy.jhoyy
+                            </a>
+                        </p>
+                    </div>
+
+                    <div class="contact-information-item padd-15">
+                        <img src="linkedin.png" width="24">
+                        <h4>LinkedIn</h4>
+                        <p>
+                            <a href="https://www.linkedin.com/in/joemel-jhoy-villanueva-426001314" target="_blank">
+                                linkedin.com/in/joemel-jhoy-villanueva
+                            </a>
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </div>
 </div>
 
-<!-- ✅ JS -->
+<!-- ===== JS FILES ===== -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js"></script>
 <script src="script.js"></script>
 
+<!-- ✅ Typed init (safe fallback) -->
 <script>
-  new Typed(".typing", {
-    strings: ["IT Specialist", "Network Engineer", "Cybersecurity"],
-    typeSpeed: 80,
-    backSpeed: 50,
-    loop: true
-  });
+    if (document.querySelector(".typing")) {
+        new Typed(".typing", {
+            strings: ["IT Specialist", "Network Engineer", "Cybersecurity"],
+            typeSpeed: 80,
+            backSpeed: 50,
+            loop: true
+        });
+    }
 </script>
 
 </body>
